@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project.Test.Application.Dto\Project.Test.Application.Dto.csproj" />
+    <ProjectReference Include="..\Project.Test.Application.Service\Project.Test.Application.Service.csproj" />
+    <ProjectReference Include="..\Project.Test.Domain\Project.Test.Domain.csproj" />
+    <ProjectReference Include="..\Project.Test.Infra.Data\Project.Test.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
